@@ -1,4 +1,4 @@
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
 
@@ -32,12 +32,18 @@ const Sidebar = () => {
       </div>
       {/* address */}
       <div className="py-4 my-5 bg-gray-200" style={{marginLeft: '-1rem', marginRight: '-1rem'}}>
-        <div className="flex items-center justify-center space-x-2">
+        <div className="flex items-center justify-center my-2 space-x-2">
           <GoLocation />
           <span>Vitoria da Conquista, BA - Brasil</span>
         </div>
-        <p className="my-2">igorcotrim.dev@gmail.com</p>
-        <p className="my-2">+55 (77)9 9188-0997</p>
+        <div className="flex items-center justify-center my-2 space-x-2">
+          <AiOutlineMail />
+          <span>igorcotrim.dev@gmail.com</span>
+        </div>
+        <div className="flex items-center justify-center my-2 space-x-2">
+          <AiOutlinePhone />
+          <span>+55 (77) 9 9188-0997</span>
+        </div>
       </div>
       {/* email button */}
       <button 
