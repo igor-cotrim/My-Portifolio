@@ -11,11 +11,11 @@ const index = () => {
         Adoro explorar novas tecnologias e tirar proveito delas para resolver problemas da vida real ✨.
         Atualmente estou trabalhando em Desenvolvimento Web 🕸️ e sempre querendo melhorar!
       </h5>
-      <div className="flex-grow p-4 mt-5 bg-gray-400" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
-        <h6 className="my-3 text-xl font-bold tracking-wide">O que eu ofereço:</h6>
+      <div className="flex-grow p-4 mt-5 bg-gray-300" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
+        <h6 className="my-4 text-xl font-bold tracking-wide">O que eu ofereço:</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map(service => (
-            <div className="bg-gray-200 rounded-lg lg:col-span-1">
+            <div className="bg-gray-100 rounded-lg lg:col-span-1">
               <ServiceCard service={service}/>
             </div>
           ))}

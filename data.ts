@@ -2,16 +2,16 @@ import { RiComputerLine } from 'react-icons/ri'
 import { FaServer } from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
 import { MdDeveloperMode } from 'react-icons/md'
-import { FunctionComponent } from 'react'
+import {BsCircleFill} from 'react-icons/bs'
 
-import {IService} from './type'
+import {IService, ISkill} from './type'
 
 export const services:IService[] = [
   {
     Icon: RiComputerLine,
     title: 'Frontend Development',
     about:
-       'I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
+       'Posso construir um SPA bonito e escalável usando <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
  },
  {
     Icon: FaServer,
@@ -44,4 +44,70 @@ export const services:IService[] = [
        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!',
  },
   
+]
+
+export const languages:ISkill[] = [
+   {
+      Icon: BsCircleFill,
+      name: 'HTML/CSS',
+      level: '95%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Javascript',
+      level: '80%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Typescript',
+      level: '50%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'React ',
+      level: '65%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Nextjs ',
+      level: '45%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'React Native',
+      level: '60%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Java',
+      level: '35%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Git',
+      level: '80%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'mySQL/MariaDB',
+      level: '50%',
+   },
+]
+
+export const tools:ISkill[] = [
+   {
+      Icon: BsCircleFill,
+      name: 'Figma',
+      level: '60%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Photoshop',
+      level: '70%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'OBS',
+      level: '80%',
+   },
 ]
