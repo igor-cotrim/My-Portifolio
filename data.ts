@@ -136,7 +136,7 @@ export const projects:IProject[] = [
       image_path: "/images/Netflix.png",
       deployed_url: "/",
       github_url: "/",
-      category: ["react"],
+      category: ["react", "express"],
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
@@ -145,7 +145,7 @@ export const projects:IProject[] = [
       image_path: "/images/Netflix.png",
       deployed_url: "/",
       github_url: "/",
-      category: ["react"],
+      category: ["react", "mongo"],
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
@@ -154,7 +154,7 @@ export const projects:IProject[] = [
       image_path: "/images/Netflix.png",
       deployed_url: "/",
       github_url: "/",
-      category: ["react"],
+      category: ["react", "node"],
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
 ]
