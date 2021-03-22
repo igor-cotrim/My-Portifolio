@@ -148,4 +148,13 @@ export const projects:IProject[] = [
       category: ["react"],
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
 ]

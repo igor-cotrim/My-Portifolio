@@ -57,7 +57,7 @@ const ProjectCard:FunctionComponent<{project: IProject}> = ({
               {key_techs.map((tech) => (
                 <span 
                   key={tech} 
-                  className="px-2 my-1 bg-gray-200 rounded-sm dark:bg-dark-200"
+                  className="px-2 py-1 my-1 bg-gray-200 rounded-lg dark:bg-dark-200"
                 >
                   {tech}
                 </span>
