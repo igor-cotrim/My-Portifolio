@@ -3,6 +3,7 @@ import {ThemeProvider} from 'next-themes'
 import Navbar from '../src/components/Navbar'
 import Sidebar from '../src/components/Sidebar'
 import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
 
 function MyApp({ Component, pageProps }) {
   return(
