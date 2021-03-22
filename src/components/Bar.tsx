@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react"
-import { ISkill } from "../../type"
+import { ISkill } from "../../types"
 
 const Bar:FunctionComponent<{data:ISkill}> = ({data: {Icon,level,name}}) => {
   return (
-    <div className="my-2 text-white bg-gray-300 dark:bg-dark-300 rounded-full">
+    <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300">
       <div 
         className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-indigo to-gray-700"
         style={{width:level}}

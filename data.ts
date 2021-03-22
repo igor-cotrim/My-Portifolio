@@ -1,10 +1,9 @@
 import { RiComputerLine } from 'react-icons/ri'
 import { FaServer } from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
-import { MdDeveloperMode } from 'react-icons/md'
 import {BsCircleFill} from 'react-icons/bs'
 
-import {IService, ISkill} from './type'
+import {IProject, IService, ISkill} from './types'
 
 export const services:IService[] = [
   {
@@ -92,4 +91,61 @@ export const tools:ISkill[] = [
       name: 'Git',
       level: '85%',
    },
+]
+
+export const projects:IProject[] = [
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
+   {
+      name: "COVID Tracker",
+      description: "This app shows a statistical view about corona virus over the world",
+      image_path: "/images/Netflix.png",
+      deployed_url: "/",
+      github_url: "/",
+      category: ["react"],
+      key_techs: ["React", "Chart.js", "Material UI"]
+   }, 
 ]
