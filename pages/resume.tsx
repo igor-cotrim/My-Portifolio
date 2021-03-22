@@ -21,10 +21,10 @@ const resume = () => {
         <div>
           <h5 className="my-3 text-2xl font-bold">Experiências</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">Desenvoldor React Native</h5>
+            <h5 className="my-2 text-xl font-bold">Estágio em Desenvolvimento ReactNative/React</h5>
             <p className="font-semibold">Prefeitura de Vitoria da Conquista (mar. de 2021 - o momento)</p>
             <p className="my-3">
-              Desenvolvendo aplicativo para o ensino remoto da educação municipal da cidade
+              Desenvolvimento de aplicativo de educação para auxilar alunos com o ensino remoto da rede municipal da cidade de Vitoria da Conquista.
             </p>
           </div>
           <div>

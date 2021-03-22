@@ -6,13 +6,16 @@ const index = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        Sou aluno do bacharelado em Sistemas de Informação 🎓 pelo Instituto Federal da Bahia - IFBA 🏛.
-        Sou um aluno apaixonado que está sempre disposto a aprender e trabalhar com tecnologias e domínios 💡.
-        Adoro explorar novas tecnologias e tirar proveito delas para resolver problemas da vida real ✨.
-        Atualmente estou trabalhando em Desenvolvimento Web 🕸️ e sempre querendo melhorar!
+        Desenvolvedor dedicado com muita vontade de
+        aprender e crescer. Tenho experiência em Javascript,
+        HTML/CSS e React, programando varias aplicações
+        como Clones de diversos sites famosos e aplicações
+        maiores como as desenvolvidas na Next Level Week.
+        Com foco em desenvolvimento Web, vi no React uma
+        ótima ferramenta para fazer aplicações.
       </h5>
       <div className="flex-grow p-4 mt-5 bg-gray-300" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
-        <h6 className="my-4 text-xl font-bold tracking-wide">O que eu ofereço:</h6>
+        <h6 className="my-4 text-xl font-bold tracking-wide">O que eu posso fazer:</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map(service => (
             <div className="bg-gray-100 rounded-lg lg:col-span-1">

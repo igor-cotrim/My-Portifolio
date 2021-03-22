@@ -9,41 +9,28 @@ import {IService, ISkill} from './type'
 export const services:IService[] = [
   {
     Icon: RiComputerLine,
-    title: 'Frontend Development',
+    title: 'Desenvolvimento front-end',
     about:
-       'Posso construir um SPA bonito e escalável usando <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
+       'Posso construir um SPA bonito e escalável usando <b> HTML</b>,<b>CSS</b> e <b>React.js</b> ',
  },
  {
     Icon: FaServer,
-    title: 'Backend  Development',
+    title: 'Desenvolvimento back-end',
     about:
-       'handle database, server, api using <b>Express </b> & other popular frameworks',
+       'Lidar com banco de dados, servidor, api usando <b> Express </b> e outras estruturas populares',
  },
  {
     Icon: AiOutlineApi,
-    title: 'API Development',
+    title: 'Desenvolvimento de API',
     about:
-       'I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ',
- },
- {
-    Icon: MdDeveloperMode,
-    title: 'Competitive Coder',
-    about:
-       'a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ',
+       'Posso desenvolver API REST robusta usando <b> API Node </b> e  <b> GraphQL </b>',
  },
  {
     Icon: AiOutlineAntDesign,
-    title: 'UI/UX designer',
+    title: 'Designer de UI/UX',
     about:
-       'stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ',
+       'Designer de interface de usuário usando <b> Figma </b> e edição de fotos usando <b> Photoshop </b>',
  },
- {
-    Icon: RiComputerLine,
-    title: 'Whatever',
-    about:
-       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!',
- },
-  
 ]
 
 export const languages:ISkill[] = [
@@ -82,16 +69,6 @@ export const languages:ISkill[] = [
       name: 'Java',
       level: '35%',
    },
-   {
-      Icon: BsCircleFill,
-      name: 'Git',
-      level: '80%',
-   },
-   {
-      Icon: BsCircleFill,
-      name: 'mySQL/MariaDB',
-      level: '50%',
-   },
 ]
 
 export const tools:ISkill[] = [
@@ -107,7 +84,12 @@ export const tools:ISkill[] = [
    },
    {
       Icon: BsCircleFill,
-      name: 'OBS',
+      name: 'OBS Studio',
       level: '80%',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Git',
+      level: '85%',
    },
 ]
