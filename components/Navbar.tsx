@@ -38,7 +38,7 @@ const Navbar = () => {
       setActiveItem('Projetos')
     }
     if(pathname === '/resume') {
-      setActiveItem('Formação e Habilidades')
+      setActiveItem('Resumo')
     }
   }, [])
 
@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="flex space-x-5 text-lg">
         <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Sobre" route="/"/>
         <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Projetos" route="/projects"/>
-        <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Formação e Habilidades" route="/resume"/>
+        <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Resumo" route="/resume"/>
       </div>
     </div>
   )
