@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { projects as projectsData } from "../data"
-import ProjectCard from "../src/components/ProjectCard"
-import ProjectNavbar from "../src/components/ProjectNavbar"
+import ProjectCard from "../components/ProjectCard"
+import ProjectNavbar from "../components/ProjectNavbar"
 import { Category } from "../types"
 
 const Projects = () => {

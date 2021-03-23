@@ -1,5 +1,5 @@
 import { languages, tools } from "../data"
-import Bar from "../src/components/Bar"
+import Bar from "../components/Bar"
 
 const resume = () => {
   return (

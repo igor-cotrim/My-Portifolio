@@ -1,10 +1,9 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 import {services} from '../data'
-import ServiceCard from '../src/components/ServiceCard'
+import ServiceCard from '../components/ServiceCard'
 
 const index = () => {
   return (
-    <>
       <div className="flex flex-col flex-grow px-6 pt-1">
         <h5 className="my-3 font-medium">
           Desenvolvedor dedicado com muita vontade de
@@ -26,7 +25,6 @@ const index = () => {
           </div>
         </div>
       </div>
-    </>
   )
 }
 
