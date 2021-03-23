@@ -5,6 +5,7 @@ import { projects as projectsData } from "../data"
 import ProjectCard from "../components/ProjectCard"
 import ProjectNavbar from "../components/ProjectNavbar"
 import { Category } from "../types"
+
 import { fadeInUp, routeAnimation, stagger } from "../animations"
 
 const Projects = () => {
