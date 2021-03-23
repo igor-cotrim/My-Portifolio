@@ -1,12 +1,21 @@
+import {motion} from 'framer-motion'
+
 import { languages, tools } from "../data"
 import Bar from "../components/Bar"
+import {fadeInUp, routeAnimation} from "../animations"
 
 const resume = () => {
   return (
-    <div className="p-6 py-2">
+    <motion.div 
+      className="p-6 py-2"
+      variants={routeAnimation} 
+      initial="initial" 
+      animate="animate"
+      exit="exit"
+    >
       {/* education e exp  */}
       <div className="grid gap-6 md:grid-cols-2">
-        <div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Formação</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Bacharelado em Sistemas de Informação</h5>
@@ -17,8 +26,8 @@ const resume = () => {
               Sou Diretor de Projetos Fundador da BTech (empresa junior do curso de Sistemas de Informação).
             </p>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experiências</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Estágio em Desenvolvimento ReactNative/React</h5>
@@ -35,7 +44,7 @@ const resume = () => {
               desenvolvi sites em wordpress, fazendo o layout, dando manutenção
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* languaages e tools */}
@@ -57,7 +66,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

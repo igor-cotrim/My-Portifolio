@@ -1,10 +1,19 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
+import {motion} from 'framer-motion'
+
 import {services} from '../data'
 import ServiceCard from '../components/ServiceCard'
+import { fadeInUp, routeAnimation, stagger } from '../animations'
 
 const index = () => {
   return (
-      <div className="flex flex-col flex-grow px-6 pt-1">
+      <motion.div 
+        className="flex flex-col flex-grow px-6 pt-1" 
+        variants={routeAnimation} 
+        initial="initial" 
+        animate="animate"
+        exit="exit"
+      >
         <h5 className="my-3 font-medium">
           Desenvolvedor dedicado com muita vontade de
           aprender e crescer. Tenho experiência em Javascript,
@@ -16,15 +25,24 @@ const index = () => {
         </h5>
         <div className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-300" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
           <h6 className="my-4 text-xl font-bold tracking-wide">O que eu posso fazer:</h6>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <motion.div 
+            className="grid gap-6 lg:grid-cols-2" 
+            variants={stagger} 
+            initial="initial" 
+            animate="animate"
+          >
             {services.map(service => (
-              <div className="bg-gray-100 rounded-lg dark:bg-dark-100 lg:col-span-1">
+              <motion.div 
+                className="bg-gray-100 rounded-lg dark:bg-dark-100 lg:col-span-1" 
+                key={service.title}
+                variants={fadeInUp}
+              >
                 <ServiceCard service={service}/>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
   )
 }
 
