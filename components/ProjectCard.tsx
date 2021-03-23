@@ -7,7 +7,11 @@ import {MdClose} from "react-icons/md"
 import { IProject } from "../types"
 import { fadeInUp, stagger } from "../animations"
 
-const ProjectCard:FunctionComponent<{project: IProject}> = ({
+const ProjectCard:FunctionComponent<{
+  project: IProject; 
+  showDetail: null | number;
+  setShowDetail: (id: null | number) => void;
+}> = ({
   project:{
     name,
     image_path,
@@ -15,36 +19,29 @@ const ProjectCard:FunctionComponent<{project: IProject}> = ({
     deployed_url,
     description,
     github_url,
-    key_techs
-  }
+    key_techs,
+    id
+  },
+  showDetail,
+  setShowDetail
 }) => {
-  const [showDetail, setShowDetail] = useState(false)
-
-  function openDetailsProject(){
-    setShowDetail(true)
-  }
-
-  function closeDetailsProject(){
-    setShowDetail(false)
-  }
-
   return (
     <div>
       <Image 
         src={image_path} 
         alt={name} 
         className="cursor-pointer" 
-        onClick={openDetailsProject} 
+        onClick={() => setShowDetail(id)} 
         layout="responsive"
         width="300" 
         height="150"
       />
       <p className="my-2 text-center">{name}</p>
 
-      {showDetail && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+      {showDetail === id && (
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <motion.div variants={stagger} initial="initial" animate="animate">
-            <motion.div variants={fadeInUp}>
+            <motion.div variants={fadeInUp} className="border-4 border-gray-100">
               <Image 
                 src={image_path} 
                 alt={name}  
@@ -86,7 +83,7 @@ const ProjectCard:FunctionComponent<{project: IProject}> = ({
           </motion.div>
         
           <button 
-            onClick={closeDetailsProject} 
+            onClick={() => setShowDetail(null)} 
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
           >
             <MdClose size={30} />

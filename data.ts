@@ -95,6 +95,7 @@ export const tools:ISkill[] = [
 
 export const projects:IProject[] = [
    {
+      id: 1,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -104,6 +105,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 2,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -113,6 +115,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 3,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -122,6 +125,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 4,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -131,6 +135,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 5,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -140,6 +145,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 6,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
@@ -149,6 +155,7 @@ export const projects:IProject[] = [
       key_techs: ["React", "Chart.js", "Material UI"]
    }, 
    {
+      id: 7,
       name: "COVID Tracker",
       description: "This app shows a statistical view about corona virus over the world",
       image_path: "/images/Netflix.png",
