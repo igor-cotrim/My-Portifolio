@@ -112,12 +112,12 @@ export const projects:IProject[] = [
       deployed_url: "https://eager-williams-888ae7.netlify.app",
       github_url: "https://github.com/igor-cotrim/Clone-Twitter",
       category: ["react"],
-      key_techs: ["React", "Typescript", "Styled-components", "styled-icons"]
+      key_techs: ["React", "Typescript", "Styled-components", "Styled-icons"]
    }, 
    {
       id: 3,
       name: "Layout Pizza",
-      description: "Esse layout fiz para treinar meus conhecimentos sobre HTML, CSS e Javascript.",
+      description: "Esse layout fiz para treinar meus conhecimentos sobre HTML, CSS e Javascript. 😉😎",
       image_path: "/images/projeto-pizza.jpg",
       deployed_url: "https://sad-yalow-404851.netlify.app",
       github_url: "https://github.com/igor-cotrim/ProjetoPizza",
@@ -132,7 +132,7 @@ export const projects:IProject[] = [
       deployed_url: "https://moveit-umber-eta.vercel.app",
       github_url: "https://github.com/igor-cotrim/move-it",
       category: ["nextjs"],
-      key_techs: ["React", "nextjs", "Typescript"]
+      key_techs: ["React", "Nextjs", "Typescript"]
    }, 
    {
       id: 5,
@@ -142,6 +142,43 @@ export const projects:IProject[] = [
       deployed_url: "https://flamboyant-raman-0e5b0f.netlify.app",
       github_url: "https://github.com/igor-cotrim/Clone-Github",
       category: ["react"],
-      key_techs: ["React", "Typescript", "styled-components", "react-icons", "date-fns", "history" ]
+      key_techs: ["React", "Typescript", "Styled-components", "React-icons", "Date-fns", "History" ]
+   }, 
+   {
+      id: 6,
+      name: "Github Whatsapp",
+      description: "Clone do chat do Whatsapp feita com React. Fiz essa aplicação para treinar meus conhecimentos com React e Javascript. O maior desafio nessa aplicação foi integrar com o firebase, uma ferramenta que nunca tinha mexido. Lendo documentações e dando muito google consegui! Ps: Não consegui fazer o deploy por causa do firebase, mas logo logo estará ai. 😄",
+      image_path: "/images/clone-whatsapp.jpg",
+      github_url: "https://github.com/igor-cotrim/Whatsapp-Clone",
+      category: ["react"],
+      key_techs: ["React", "Javascript", "Material-icons", "Firebase"]
+   }, 
+   {
+      id: 7,
+      name: "Spotify Clone",
+      description: "Clone da home do Spotify feita com React. Fiz essa aplicação para treinar meus conhecimentos com React e Javascript. Essa aplicação foi um grande desafio para mim porque além de usar o firebase (que não sabia muito bem usar) e ainda consumir a API do Spotify. Ficou uma aplicação estática podendo implementar muitas funcionalidades futuramente, deixando mais linda e com funcionalidades. Ps: Não consegui fazer o deploy por causa do firebase, mas logo logo estará ai. 😄",
+      image_path: "/images/clone-spotify.jpg",
+      github_url: "https://github.com/igor-cotrim/Clone-Spotify",
+      category: ["react"],
+      key_techs: ["React", "Javascript", "Material-ui", "API Spotify"]
+   }, 
+   {
+      id: 8,
+      name: "Layout Awax",
+      description: "Esse layout fiz para treinar meus conhecimentos sobre HTML, CSS e Javascript. 😉😎",
+      image_path: "/images/awax.jpg",
+      deployed_url: "https://quirky-easley-7097c8.netlify.app",
+      github_url: "https://github.com/igor-cotrim/Awax",
+      category: ["HTML/CSS/JS"],
+      key_techs: ["CSS", "HTML", "Javascript"]
+   }, 
+   {
+      id: 9,
+      name: "Javascript Training",
+      description: "Um repositório com varias aplicações usando JavaScript Vanilla HTML e CSS so para treinar meus conhecimentos 😉",
+      image_path: "/images/javascript-training.png",
+      github_url: "https://github.com/igor-cotrim/Javascript-Training",
+      category: ["HTML/CSS/JS"],
+      key_techs: ["CSS", "HTML", "Javascript"]
    }, 
 ]
