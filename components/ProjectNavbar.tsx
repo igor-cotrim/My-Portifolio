@@ -24,6 +24,7 @@ const ProjectNavbar:FunctionComponent<{handlerFilterCategory:Function, active:st
       <NavItem value="all" {...props}/>
       <NavItem value="react" {...props}/>
       <NavItem value="nextjs" {...props}/>
+      <NavItem value="mobile" {...props}/>
       <NavItem value="node" {...props}/>
       <NavItem value="HTML/CSS/JS" {...props}/>
     </div>

@@ -1,4 +1,4 @@
-import { RiComputerLine } from 'react-icons/ri'
+import { RiComputerLine ,RiSmartphoneLine } from 'react-icons/ri'
 import { FaServer } from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
 import {BsCircleFill} from 'react-icons/bs'
@@ -11,6 +11,12 @@ export const services:IService[] = [
     title: 'Desenvolvimento front-end',
     about:
        'Posso construir um SPA bonito e escalável usando <b> HTML</b>, <b>CSS</b>, <b>React</b> e <b>Nextjs</b>',
+ },
+ {
+    Icon: RiSmartphoneLine,
+    title: 'Desenvolvimento Mobile',
+    about:
+       'Posso construir Aplicativos bonitos e funcinais com <b>React Native</b> e <b>Expo</b',
  },
  {
     Icon: FaServer,
@@ -180,5 +186,23 @@ export const projects:IProject[] = [
       github_url: "https://github.com/igor-cotrim/Javascript-Training",
       category: ["HTML/CSS/JS"],
       key_techs: ["CSS", "HTML", "Javascript"]
+   }, 
+   {
+      id: 10,
+      name: "Ecoleta",
+      description: "Ecoleta - é uma forma de conectar empresas e entidades que fazem a coleta de resíduos orgânicos e inorgânicos a pessoas que precisam destinar seus resíduos de forma ecológica. Foi feito durante a NLW (Next Level Week) uma semana de muitos conhecimentos e mão na massa! Nessa semana tive contato com muitas tecnologias e foi de grande valia para minha carreia. Obrigado Rocketseat!",
+      image_path: "/images/ecoleta.jpg",
+      github_url: "https://github.com/igor-cotrim/Ecoleta",
+      category: ["react", "node", "mobile"],
+      key_techs: ["React", "Express", "Typescript", "Axios", "Expo", "SQlite"]
+   }, 
+   {
+      id: 11,
+      name: "Proffy",
+      description: "Proffy - é uma forma de conectar alunos e professores em uma plataforma de estudos online. Foi feito durante a NLW (Next Level Week) uma semana de muitos conhecimentos e mão na massa! Nessa semana tive contato com muitas tecnologias e foi de grande valia para minha carreia. Obrigado Rocketseat!",
+      image_path: "/images/proffy.jpg",
+      github_url: "https://github.com/igor-cotrim/Proffy",
+      category: ["react", "node", "mobile"],
+      key_techs: ["React", "Express", "Typescript", "Axios", "Expo", "SQlite"]
    }, 
 ]
