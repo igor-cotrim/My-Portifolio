@@ -15,13 +15,14 @@ const index = () => {
         exit="exit"
       >
         <h5 className="my-3 font-medium">
-          Desenvolvedor dedicado com muita vontade de
-          aprender e crescer. Tenho experiência em Javascript,
-          HTML/CSS e React, programando varias aplicações
-          como Clones de diversos sites famosos e aplicações
-          maiores como as desenvolvidas na Next Level Week.
-          Com foco em desenvolvimento Web, vi no React uma
-          ótima ferramenta para fazer aplicações.
+        Olá, meu nome é Igor 😀 e atualmente estou cursando Sistemas de Informação no IFBA de Vitória da Conquista - Bahia. 📖
+        Entusiasta de tecnologia e a procura de novos desafios, busco conectar pessoas, problemas e conseguir soluções,
+        em constante aprendizado para criar inovações que ajudem a sociedade como um todo. Meus maiores objetivos são
+        alcançar um bom desenvolvimento pessoal e profissional como Desenvolvedor Web 💻, por acreditar que os dois caminham juntos,
+        além de sempre querer que meu trabalho seja o veículo para melhorar a vida de outras pessoas de alguma forma,
+        por isso mantenho o foco no negócio e não apenas em gerar código. Para alcançar meus objetivos é preciso esforço e dedicação, 
+        com isso em mente, busco me esforçar todos os dias porque sei que melhorando 1% ao dia, todos os dias, 
+        a longo prazo é a garantia do meu sucesso. O aprendizado é contínuo! 🚀
         </h5>
         <div className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-300" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
           <h6 className="my-4 text-xl font-bold tracking-wide">O que eu posso fazer:</h6>
