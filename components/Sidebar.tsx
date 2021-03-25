@@ -23,7 +23,7 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-marker">Igor Cotrim</h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Desenvolvedor Front-end</p>
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Desenvolvedor Web</p>
       <a 
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" 
         href="/assets/Igor Cotrim Currículo.pdf" 
