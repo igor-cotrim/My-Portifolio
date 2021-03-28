@@ -16,7 +16,7 @@ export const services:IService[] = [
     Icon: RiSmartphoneLine,
     title: 'Desenvolvimento Mobile',
     about:
-       'Posso construir Aplicativos bonitos e funcinais com <b>React Native</b> e <b>Expo</b',
+       'Posso construir Aplicativos bonitos e funcionais com <b>React Native</b> e <b>Expo</b',
  },
  {
     Icon: FaServer,
@@ -32,7 +32,7 @@ export const services:IService[] = [
  },
  {
     Icon: AiOutlineAntDesign,
-    title: 'Designer de UI/UX',
+    title: 'Designer de UI',
     about:
        'Designer de interface de usuário usando <b> Figma </b> e edição de fotos usando <b> Photoshop </b>',
  },
